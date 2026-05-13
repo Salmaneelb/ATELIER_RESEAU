@@ -61,12 +61,12 @@ Difficulté : Moyenne (~1 h)
 
 **Exercice 1.1 — Définitions (réponse directement dans ce README)**
 
-* Un **protocole** :
-* Une **entité protocolaire** :
-* Un **service** :
-* Une **primitive de service** :
-* Une **Service Data Unit (SDU)** par rapport à une PDU :
-* Un **point d'accès à un service (SAP)** :
+* Un **protocole** :Ensemble de règles et conventions qui définissent comment deux entités communicantes échangent des données 
+* Une **entité protocolaire** :Élément logiciel ou matériel qui implémente un protocole à une couche donnée
+* Un **service** :Fonctionnalité offerte par une couche N à la couche N+1 via des primitives, sans exposer comment elle est réalisée en interne.
+* Une **primitive de service** :Opération élémentaire qu'une couche met à disposition de la couche supérieure
+* Une **Service Data Unit (SDU)** par rapport à une PDU :La SDU (Service Data Unit) est la donnée reçue de la couche supérieure, avant encapsulation. La PDU (Protocol Data Unit) est la SDU + l'en-tête ajouté par la couche courante
+* Un **point d'accès à un service (SAP)** :Interface abstraite entre deux couches adjacentes par laquelle les primitives de service sont échangées 
 
 ---------------------------------------------------
 🗺️ Séquence 5 : Retour sur le protocole DHCP
