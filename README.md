@@ -10,6 +10,7 @@ Deux supports complémentaires sont mis à disposition :
 
 **Notre architecture cible**
 
+
 ![Screenshot Actions](Architecture_cible_Reseau.png)
 
 -------------------------------------------------------------------------------------------------------
